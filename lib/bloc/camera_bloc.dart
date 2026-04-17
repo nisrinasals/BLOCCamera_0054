@@ -6,6 +6,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:kamera/bloc/camera_event.dart';
 import 'package:kamera/bloc/camera_state.dart';
+import 'package:kamera/helpers/storage_helper.dart';
+import 'package:kamera/pages/camera_page.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class CameraBloc extends Bloc<CameraEvent, CameraState> {
